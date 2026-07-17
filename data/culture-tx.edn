@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "pak.dish.sindhi-biryani", :name "Sindhi Biryani", :country "PAK", :kind :dish, :summary "Meat-and-rice biryani dish originating from the Sindh province of Pakistan.", :url "https://en.wikipedia.org/wiki/Sindhi_biryani", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.dish.chapli-kebab", :name "Chapli Kebab", :country "PAK", :kind :dish, :summary "Minced-meat kebab that originated in the city of Peshawar, Khyber Pakhtunkhwa province, Pakistan, and is today found across South Asia.", :url "https://en.wikipedia.org/wiki/Chapli_kebab", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.dish.nihari", :name "Nihari", :country "PAK", :kind :dish, :summary "Slow-cooked stew that originated on the Indian subcontinent and became a large-scale success in Karachi after 1947, spreading in prominence and availability across Pakistan.", :url "https://en.wikipedia.org/wiki/Nihari", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.beverage.lassi", :name "Lassi", :country "PAK", :kind :beverage, :summary "Yogurt-based drink associated with Punjabi, Indian and Pakistani cuisine, part of the broader South Asian culinary tradition rather than uniquely Pakistani.", :url "https://en.wikipedia.org/wiki/Lassi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.craft.kheri", :name "Kheri (Peshawari chappal)", :country "PAK", :kind :craft, :summary "Traditional sandal originating from Pakistan, worn by men casually or formally with the shalwar kameez and often regarded as the national footwear of Pakistan.", :url "https://en.wikipedia.org/wiki/Kheri_(footwear)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.craft.truck-art", :name "Truck art", :country "PAK", :kind :craft, :summary "Elaborate decoration of trucks with paint, calligraphy and ornamentation, especially common in Pakistan and India.", :url "https://en.wikipedia.org/wiki/Truck_art_in_South_Asia", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.festival.basant", :name "Basant", :country "PAK", :kind :festival, :summary "Seasonal spring festival celebrated in the Punjab province of Pakistan.", :url "https://en.wikipedia.org/wiki/Basant_(festival)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "pak.heritage.mohenjo-daro", :name "Mohenjo-daro", :country "PAK", :kind :heritage, :summary "Archaeological site in Pakistan, designated a UNESCO World Heritage Site in 1980 -- the first site in South Asia to be so designated.", :url "https://en.wikipedia.org/wiki/Mohenjo-daro", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
